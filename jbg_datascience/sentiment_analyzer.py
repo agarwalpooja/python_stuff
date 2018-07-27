@@ -5,8 +5,8 @@ from textblob import TextBlob
 consumer_key= 'YqrIzOKQXt5QSSpjB0KJR7bjb'
 consumer_secret= 'LI1pLUqFuYQryxhko5SHfm1Ttg2xdjSRP2LA50FH1aqusp6la0'
 
-access_token='1020959073213091840-2x45m50uFReth2SVpIN1J82HaSugbr'
-access_token_secret='RQBkXhvPmnIg7WRRMQrTiCOvUEuh89Fu8KXwZUIbR6nMd'
+access_token='your accsess_token'
+access_token_secret='your access_token_secret'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
