@@ -1,6 +1,6 @@
 import imapclient
 imapObj = imapclient.IMAPClient('imap.gmail.com', ssl=True)
-imapObj.login('poojaag1606@gmail.com ', '9861867409')
+imapObj.login('somemail@gmail.com', '***********')
 imapObj.select_folder('INBOX')
 # UIDs = imapObj.search(['SINCE 05-Jul-2018'])
 import imaplib
